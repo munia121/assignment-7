@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-import profile from '../../assets/image/cooking.png'
 const SingleCart = ({item}) => {
 
     const {recipe_id,recipe_name,short_description,preparing_time,calories,recipe_image,ingredients} = item;
