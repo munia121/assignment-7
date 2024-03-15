@@ -1,0 +1,84 @@
+[
+    {
+      "recipe_id": "001",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with creamy sauce and crispy bacon.",
+      "ingredients": [
+        "400 g spaghetti",
+        "200 g pancetta or bacon, diced",
+        "3 large eggs",
+        "100 g Parmesan cheese"
+        
+      ],
+      "preparing_time": "20",
+      "calories": "450 ",
+      "recipe_image": "https://i.ibb.co/7RTDs7t/images-3.jpg"
+    },
+    {
+      "recipe_id": "002",
+      "recipe_name": "Chicken Tikka Masala",
+      "short_description": "Creamy and flavorful Indian chicken dish served with rice or naan.",
+      "ingredients": [
+        "500 g chicken breast",
+        "200 ml plain yogurt",
+        "200 g tomatoes"
+       
+      ],
+      "preparing_time": "40 ",
+      "calories": "380",
+      "recipe_image": "https://i.ibb.co/LtSTfw8/images-4.jpg"
+    },
+    {
+      "recipe_id": "003",
+      "recipe_name": "Greek Salad",
+      "short_description": "Refreshing salad with crisp vegetables, olives, and feta cheese.",
+      "ingredients": [
+        "200 g feta cheese, crumbled",
+        "100 g Kalamata olives",
+        "2 tbsp extra virgin olive oil"
+      ],
+      "preparing_time": "15",
+      "calories": "250",
+      "recipe_image": "https://i.ibb.co/WzSzgHZ/13267-baked-feta-greek-salad-flatbreads.jpg"
+    },
+    {
+      "recipe_id": "004",
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "Quick and healthy stir-fry loaded with colorful vegetables.",
+      "ingredients": [
+        "100 g snow peas",
+        "1 onion, thinly sliced",
+        "2 cloves garlic"
+      ],
+      "preparing_time": "25",
+      "calories": "180",
+      "recipe_image": "https://i.ibb.co/mG4cmTb/images-5.jpg"
+    },
+    {
+      "recipe_id": "005",
+      "recipe_name": "Homemade Pizza",
+      "short_description": "Classic Italian pizza with homemade dough and your favorite toppings.",
+      "ingredients": [
+        "300 g all-purpose flour",
+        "200 ml warm water",
+        "200 g pizza sauce"
+      ],
+      "preparing_time": "60 ",
+      "calories": "300 ",
+      "recipe_image": "https://i.ibb.co/6n9PK5G/homemade-pizza-monterey-jack-cheese.jpg"
+    },
+    {
+      "recipe_id": "006",
+      "recipe_name": "Chocolate Brownies",
+      "short_description": "Rich and indulgent chocolate brownies that melt in your mouth.",
+      "ingredients": [
+        "200 g unsalted butter",
+        "200 g dark chocolate",
+        "200 g granulated sugar"
+      ],
+      "preparing_time": "35",
+      "calories": "200 ",
+      "recipe_image": "https://i.ibb.co/tJBXh77/qqtdnm6o-brownie-625x300-17-December-19.jpg"
+    }
+  ]
+  

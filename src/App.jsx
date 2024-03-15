@@ -1,5 +1,6 @@
 import './App.css'
 import Headers from './component/Headers/Headers'
+import Recipes from './component/Recipes/Recipes'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
      
       <div>
           <Headers></Headers>
+         <Recipes></Recipes>
       </div>
     </>
   )
