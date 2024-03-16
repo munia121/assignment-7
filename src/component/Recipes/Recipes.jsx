@@ -49,25 +49,27 @@ const Recipes = () => {
 
     // console.log(products)
     return (
-        <div className="w-[1600px] mx-auto mt-10">
+        <div className="lg:w-[1600px] mx-auto mt-20">
             <div className="text-center">
                 <h1 className="text-3xl text-center font-bold">Our Recipes</h1>
-                <p className="w-[823px] mx-auto">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p className="lg:w-[823px] mx-auto p-4">Indulge in a symphony of flavors with our curated collection of exquisite recipes. Each dish is a masterpiece, meticulously crafted to tantalize your taste buds and ignite your culinary imagination.
+
+</p>
             </div>
             {/* cart single */}
-            <div className="flex gap-20 mt-20">
-                <div className="grid grid-cols-2 gap-y-4 gap-x-20">
+            <div className="lg:flex gap-20 mt-20">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 gap-x-20">
                     {
                         carts.map((item)=><SingleCart item={item} handleWantToCook={handleWantToCook}></SingleCart>)
                     }
                     
                 </div>
                 {/* cart  */}
-                <div className='w-[514px] border h-full rounded-lg  '>
+                <div className='lg:w-[514px] w-full border h-full rounded-lg  '>
                     <div >
                        <h2 className="text-3xl font-bold text-center">Want to cook:{products.length}</h2>
                        <div className="divider"></div>
-                       <div className="flex gap-20 px-20">
+                       <div className="flex gap-20 px-20 font">
                             <p>name</p>
                             <p>Time</p>
                             <p>Calories</p>
@@ -75,7 +77,7 @@ const Recipes = () => {
                        <div>
                             {
                                 products.map((item, index) =>(
-                                    <div className="flex justify-around items-center">
+                                    <div className="flex justify-around items-center font">
                                         <p>{index+1}</p>
                                         <p>{item.recipe_name}</p>
                                         <p>{item.preparing_time} minute</p>
@@ -88,7 +90,7 @@ const Recipes = () => {
                        <div>
                         <p className="text-3xl text-center mt-6 font-bold">Currently cooking: {preparing.length}</p>
                         <div className="divider"></div>
-                        <div className="flex justify-around">
+                        <div className="flex justify-around font">
                             <p>name</p>
                             <p>Time</p>
                             <p>Calories</p>
@@ -96,7 +98,7 @@ const Recipes = () => {
                        <div>
                             {
                                 preparing.map(prepar => (
-                                    <div className="flex justify-between p-7">
+                                    <div className="flex justify-between p-7 font">
                                         <p>{prepar.recipe_name}</p>
                                         <p>{prepar.preparing_time} minute</p>
                                         <p>{prepar.calories} calories</p>

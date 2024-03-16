@@ -12,11 +12,11 @@ const SingleCart = ({item, handleWantToCook}) => {
                     <img src={recipe_image} alt="Shoes" className="rounded-xl h-[200px] w-full " />
                 </figure>
                 <div className=" px-10">
-                    <h2 className="card-title">{recipe_name}</h2>
-                    <p>{short_description}</p>
+                    <h2 className="card-title mt-5">{recipe_name}</h2>
+                    <p className="font">{short_description}</p>
                     <div className='divider'></div>
-                    <div>
-                        <p className='font-bold'>Ingredients: 6</p>
+                    <div className="font">
+                        <p className='font-bold'>Ingredients: {ingredients.length}</p>
                         {
                             ingredients.map(a => <li>{a}</li>)
                         }
