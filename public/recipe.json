@@ -10,8 +10,8 @@
         "100 g Parmesan cheese"
         
       ],
-      "preparing_time": "20",
-      "calories": "450 ",
+      "preparing_time":20,
+      "calories": 450,
       "recipe_image": "https://i.ibb.co/7RTDs7t/images-3.jpg"
     },
     {
@@ -24,8 +24,8 @@
         "200 g tomatoes"
        
       ],
-      "preparing_time": "40 ",
-      "calories": "380",
+      "preparing_time": 40,
+      "calories": 380,
       "recipe_image": "https://i.ibb.co/LtSTfw8/images-4.jpg"
     },
     {
@@ -37,8 +37,8 @@
         "100 g Kalamata olives",
         "2 tbsp extra virgin olive oil"
       ],
-      "preparing_time": "15",
-      "calories": "250",
+      "preparing_time": 15,
+      "calories": 250,
       "recipe_image": "https://i.ibb.co/WzSzgHZ/13267-baked-feta-greek-salad-flatbreads.jpg"
     },
     {
@@ -50,8 +50,8 @@
         "1 onion, thinly sliced",
         "2 cloves garlic"
       ],
-      "preparing_time": "25",
-      "calories": "180",
+      "preparing_time": 25,
+      "calories": 180,
       "recipe_image": "https://i.ibb.co/mG4cmTb/images-5.jpg"
     },
     {
@@ -63,8 +63,8 @@
         "200 ml warm water",
         "200 g pizza sauce"
       ],
-      "preparing_time": "60 ",
-      "calories": "300 ",
+      "preparing_time": 60,
+      "calories": 300,
       "recipe_image": "https://i.ibb.co/6n9PK5G/homemade-pizza-monterey-jack-cheese.jpg"
     },
     {
@@ -76,8 +76,8 @@
         "200 g dark chocolate",
         "200 g granulated sugar"
       ],
-      "preparing_time": "35",
-      "calories": "200 ",
+      "preparing_time": 35,
+      "calories": 200,
       "recipe_image": "https://i.ibb.co/tJBXh77/qqtdnm6o-brownie-625x300-17-December-19.jpg"
     }
   ]

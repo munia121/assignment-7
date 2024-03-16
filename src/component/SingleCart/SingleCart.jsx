@@ -1,15 +1,15 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-const SingleCart = ({item}) => {
+const SingleCart = ({item, handleWantToCook}) => {
 
-    const {recipe_id,recipe_name,short_description,preparing_time,calories,recipe_image,ingredients} = item;
+    const {recipe_name,short_description,preparing_time,calories,recipe_image,ingredients} = item;
 
     return (
         <div className='flex'>
             <div>
-            <div className="card w-96  bg-base-100 shadow-xl p-5">
-                <figure className="px-10 pt-10">
-                    <img src={recipe_image} alt="Shoes" className="rounded-xl h-[200px]" />
+            <div className="card w-96  bg-base-100 border p-5">
+                <figure className=" ">
+                    <img src={recipe_image} alt="Shoes" className="rounded-xl h-[200px] w-full " />
                 </figure>
                 <div className=" px-10">
                     <h2 className="card-title">{recipe_name}</h2>
@@ -39,7 +39,7 @@ const SingleCart = ({item}) => {
                         </div>
                     </div>
                     <div className="card-actions mt-2">
-                        <button className="btn bg-[#0BE58A] rounded-full font-bold">Want to Cook</button>
+                        <button onClick={()=>handleWantToCook(item)} className="btn bg-[#0BE58A] rounded-full font-bold">Want to Cook</button>
                     </div>
                 </div>
                 </div>
