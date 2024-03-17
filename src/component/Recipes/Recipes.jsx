@@ -74,10 +74,10 @@ const Recipes = () => {
                             <p>Time</p>
                             <p>Calories</p>
                        </div>
-                       <div>
+                       <div className="p-3 ">
                             {
                                 products.map((item, index) =>(
-                                    <div className="flex justify-around items-center font">
+                                    <div className="flex justify-around items-center font bg-gray-200 mt-5 py-3 rounded-lg">
                                         <p>{index+1}</p>
                                         <p>{item.recipe_name}</p>
                                         <p>{item.preparing_time} minute</p>
@@ -97,8 +97,9 @@ const Recipes = () => {
                        </div>
                        <div>
                             {
-                                preparing.map(prepar => (
+                                preparing.map((prepar,index) => (
                                     <div className="flex justify-between p-7 font">
+                                        <p>{index+1}</p>
                                         <p>{prepar.recipe_name}</p>
                                         <p>{prepar.preparing_time} minute</p>
                                         <p>{prepar.calories} calories</p>
